@@ -4,9 +4,6 @@
   "build": "17",
   "description": "Just a bot for the StrafeCode.com Discord Server",
   "main": "bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StrafeCode/Bot.git"
@@ -16,10 +13,5 @@
   "bugs": {
     "url": "https://github.com/StrafeCode/Bot/issues"
   },
-  "homepage": "https://github.com/StrafeCode/Bot#readme",
-  "dependencies": {
-    "discord.js": "^11.4.2",
-    "discord.js-musicbot-addon": "^12.0.6",
-    "signale": "^1.3.0"
-  }
+  "homepage": "http://strafecode.com"
 }
