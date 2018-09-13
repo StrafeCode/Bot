@@ -1,12 +1,7 @@
 {
   "name": "strafebot",
-<<<<<<< HEAD
   "version": "0.3",
   "build": "28",
-=======
-  "version": "0.2",
-  "build": "17",
->>>>>>> 4dc38ba723c8e67cf56ef5566aa55c2c277a8f26
   "description": "Just a bot for the StrafeCode.com Discord Server",
   "main": "bot.js",
   "repository": {
