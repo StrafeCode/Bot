@@ -1,0 +1,17 @@
+{
+  "name": "strafebot",
+  "version": "0.3",
+  "build": "28",
+  "description": "Just a bot for the StrafeCode.com Discord Server",
+  "main": "bot.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrafeCode/Bot.git"
+  },
+  "author": "@Seed#0001 && @Cheezbiscuit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StrafeCode/Bot/issues"
+  },
+  "homepage": "http://strafecode.com"
+}
