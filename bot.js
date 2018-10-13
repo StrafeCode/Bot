@@ -144,7 +144,7 @@ client.on("message", async message => {
   }
 
   //Changes the Rich Presence
-  if (command === 'rp') {
+  if (command === 'rpc') {
     var game = args.slice(0).join(" ");
 
 // only @Seed#0001 and @CheezBiscuit can access this command
@@ -174,6 +174,6 @@ client.on("message", async message => {
 
 client.on("ready", () => {
 	signal.info(`Bot has started, with ` + client.users.size + ` users, in ` + client.channels.size + ` channels of ` + client.guilds.size + ` guilds.`);
-	client.user.setActivity(`-help // strafecode.com // Serving ` + client.guilds.size + ` servers`);
+	client.user.setActivity(`-help ][ strafecode.com ][ in ` + client.guilds.size + ` servers`);
 });
 client.login(config.token);
