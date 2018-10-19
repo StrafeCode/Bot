@@ -154,11 +154,11 @@ client.on("message", async message => {
 
       //reset command
       if (game === 'reset') {
-        client.user.setActivity('s!help // bot.jyles.pw // Serving ' + client.guilds.size + ' servers');
+        client.user.setActivity('-help');
         message.author.send('Game activity has been reset!')
       }
       else{
-        client.user.setActivity(game + ' // bot.jyles.pw // Serving ${client.guilds.size} servers');
+        client.user.setActivity(game + ' ][ -help');
         message.author.send('game set to: ' + game);
       }
     }
@@ -174,6 +174,6 @@ client.on("message", async message => {
 
 client.on("ready", () => {
 	signal.info(`Bot has started, with ` + client.users.size + ` users, in ` + client.channels.size + ` channels of ` + client.guilds.size + ` guilds.`);
-	client.user.setActivity(`-help ][ strafecode.com ][ in ` + client.guilds.size + ` servers`);
+	client.user.setActivity(`-help`);
 });
 client.login(config.token);
